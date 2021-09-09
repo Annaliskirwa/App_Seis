@@ -11,10 +11,4 @@ $(document).ready(function() {
 
       event.preventDefault();
     });
-
-
-    $('#clearStory').on('click', function () {
-        $('#blanks').find('input:text').val('');
-    });
-
   });
